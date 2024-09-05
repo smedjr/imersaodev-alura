@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ambiente de Testes para Desenvolvedores Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Ambiente de Testes para Desenvolvedores Web</h1>
+    <p>Este é o seu espaço para experimentar e aprender a criar páginas web. Utilize os painéis abaixo para: <br>
+        • <strong>HTML</strong>: Escreva a estrutura básica da sua página, como títulos, parágrafos, imagens e links. <br>
+        • <strong>CSS</strong>: Defina a aparência da sua página, como cores, fontes, tamanhos e posicionamento dos elementos. <br>
+        • <strong>JavaScript</strong>: Adicione interatividade à sua página, como animações, validações de formulários e manipulação de conteúdo. <br>
+        <br>
+        Clique em "Executar" para visualizar o resultado do seu código no painel "Saída". <br>
+        <br>
+        <strong>Dicas:</strong> <br>
+        • Comece com exemplos simples e vá aumentando a complexidade gradualmente. <br>
+        • Utilize a internet para pesquisar e aprender mais sobre HTML, CSS e JavaScript. <br>
+        • Não tenha medo de errar! A experimentação é parte fundamental do aprendizado. <br>
+        <br>
+        <strong>Divirta-se explorando o mundo do desenvolvimento web!</strong> <br>
+        </p>
+
+        <div class="editor-container">
+        <div id="html-editor" class="editor">
+            <h2>HTML</h2>
+            <textarea id="html-code" placeholder="Enter HTML code here..."></textarea>
+        </div>
+        <div id="css-editor" class="editor">
+            <h2>CSS</h2>
+            <textarea id="css-code" placeholder="Enter CSS code here..."></textarea>
+        </div>
+        <div id="javascript-editor" class="editor">
+            <h2>JavaScript</h2>
+            <textarea id="js-code" placeholder="Enter JavaScript code here..."></textarea>
+        </div>
+    </div>
+
+    <button onclick="runCode()">Executar</button>
+
+    <div class="output">
+        <h2>Output</h2>
+        <iframe id="output-frame"></iframe>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
