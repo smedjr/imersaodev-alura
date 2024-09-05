@@ -35,3 +35,5 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.
+
+# Este projeto teve como inspiração os editores on-line de códigos (HTML, CSS, JavaScript, Python)
